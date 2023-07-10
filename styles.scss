@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Norse Bold";
+    src:  url("/webfontkit-20230709-213724/norse-bold-webfont.woff") format("woff");
+}
+
+h1 {
+    font-family: "Norse Bold";
+    display: inline;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+}
+
+.flex-one {
+    background: {
+        image: url(nahil-naseer-xljtGZ2-P3Y-unsplash.jpg);
+        size: cover;
+    }
+    width: 33vw;
+}
+
+.flex-two {
+    place-items: center;
+    width: 66vw;
+    margin: 10vh 5vw;
+    height: 60vh;
+    padding: {
+        top: 10vh;
+        bottom: 10vh;
+    }
+}
+
+#logo {
+    display: inline;
+    scale: 10%;
+    width: auto;
+}
+
+h2, h3, p {
+    font-family: Helvetica, san-serif;
+}
+
+p {
+    margin-bottom: 5rem;
+}
+
+.form {
+    box-shadow: 10px 10px 5px rgb(196, 196, 196);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-one">
+            <img id="logo" src="odin-lined.png">
+            <h1>Odin</h1>
+        </div>
+        <div class="flex-two">
+            <p> Our user-friendly form makes it easy to join our vibrant community.
+                Just provide your name, email, and a secure password, and you'll 
+                gain access to exclusive content, exciting updates, and a network 
+                of like-minded individuals. <br> <br> Don't miss out on the opportunities 
+                waiting for you - sign up today!
+            </p>
+            <div class="form">
+                <h2>Let's do it!</h2>
+                <form action="example.com/path" method="post">
+                    <fieldset>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name">
+
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="user_email">Email</label>
+                        <input type="email" id="user_email">
+
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone">
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input type="text" id="password">
+
+                        <label for="password_confirm">Confirm Password</label>
+                        <input type="text" id="password_confirm">
+                    </fieldset>
+                </form>
+            </div>
+            <button type="submit">Create Account</button>
+            <h3>Already have an account?<a href="">Log In</a></h3>
+        </div>
+    </div>
+</body>
+</html>
